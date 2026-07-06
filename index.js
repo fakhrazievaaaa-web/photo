@@ -16,7 +16,7 @@ if (!TELEGRAM_TOKEN || !FAL_KEY) {
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
 
 // Референс-фото твоего фирменного стиля. Один раз кладёшь файл в assets/reference.jpg
-const REFERENCE_PATH = path.join(__dirname, 'assets', 'reference.jpg');
+const REFERENCE_PATH = path.join(__dirname, 'reference.jpg');
 let referenceDataUri;
 try {
   const referenceBase64 = fs.readFileSync(REFERENCE_PATH).toString('base64');
