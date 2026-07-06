@@ -6,7 +6,7 @@ const path = require('path');
 
 const TELEGRAM_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const FAL_KEY = process.env.FAL_KEY; // ключ с fal.ai (не Google!)
-const FAL_MODEL_ENDPOINT = 'https://fal.run/fal-ai/gemini-25-flash-image/edit';
+const FAL_MODEL_ENDPOINT = 'https://fal.run/fal-ai/gemini-3-pro-image-preview/edit'; // Nano Banana Pro — лучше следует сложным инструкциям, чем базовая версия
 
 if (!TELEGRAM_TOKEN || !FAL_KEY) {
   console.error('Не заданы TELEGRAM_BOT_TOKEN или FAL_KEY в переменных окружения');
