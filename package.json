@@ -1,0 +1,17 @@
+{
+  "name": "photo-style-bot",
+  "version": "1.0.0",
+  "description": "Telegram-бот: присылаешь фото, получаешь его в фирменном стиле студии",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
